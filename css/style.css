@@ -1,9 +1,33 @@
-@font-face {
-  font-family: 'Inconsolata', monospace;
-  src: url("https://fonts.googleapis.com/css?family=Signika:300,400,600,700&display=swap");
+/* Global */
+.mon {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
 }
 
-h1, h2, h3, h4, h5 {
-  font: 60px/68px 'Inconsolata', monospace;
+.roboto {
+  font-family: "Roboto Slab", serif;
+  font-weight: 200;
 }
+
+.serif {
+  font-family: "Source Serif Pro", serif;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+h2 {
+  font: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  color: #000;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+/*  Home */
 /*# sourceMappingURL=style.css.map */

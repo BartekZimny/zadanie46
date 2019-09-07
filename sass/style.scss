@@ -1,40 +1,38 @@
+$font-one: 'Montserrat', sans-serif;
+$font-two: 'Roboto Slab', serif;
+$font-three: 'Source Serif Pro', serif;
 
-
-
-
-@font-face {
-  font-family: 'Inconsolata', monospace;
-  src: url('https://fonts.googleapis.com/css?family=Signika:300,400,600,700&display=swap');
-}
-
-h1, h2, h3, h4, h5 {
-  font: 60px/68px 'Inconsolata', monospace;;
+/* Global */
+.mon {
+  font-family: $font-one;
+  font-weight: 800;   
 
 }
+.roboto {
+  font-family: $font-two;
+  font-weight: 200; 
+}
+.serif {
+  font-family: $font-three;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+h2 {
+  font: $font-one;
+  font-weight: 800;   
+  font-size: 50px;
+  color: #000;
+}
+
+h3 {
+  font-size: 20px;
+}
 
 
 
-.splash {
-    height: 100vh;
-    position: relative;
-    background-image: url('https://images.pexels.com/photos/1054391/pexels-photo-1054391.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.splash-inner {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.splash i {
-    font-size: 30px;
-    background: $color-main;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    color: $color-light;
-    border-radius: 50%;
-}
+/*  Home */
+
