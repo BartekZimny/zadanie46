@@ -1,15 +1,14 @@
 $font-one: 'Montserrat', sans-serif;
 $font-two: 'Roboto Slab', serif;
 $font-three: 'Source Serif Pro', serif;
-
 $color-two: #fed136;
 
 /* Global */
+
 .mon {
   font-family: $font-one;
   font-weight: 800;
   text-align: center;  
-
 }
 .roboto {
   font-family: $font-two;
@@ -39,11 +38,8 @@ $color-two: #fed136;
 .h5 {
   font-size: 18px;
   color: #464646;
-
-
 }
 /*  Home */
-
 
 .splash {
   height: 100vh;
@@ -60,31 +56,18 @@ $color-two: #fed136;
   left: 50%;
   transform: translate(-50%,-50%);
 }
-
-
-
-
-
-
-
-
-
-
-
 .serif-white {
   color: #fff;
   font-weight: 400; 
-
 }
 .btn-yellow {
-
-
-    background-color: $color-two;
-    color: #fff;
-    padding: 28px 55px;
+  background-color: $color-two;
+  color: #fff;
+  padding: 28px 55px;
 }
 
 /* Portfolio */
+
 i {
   color: $color-two;
   border-width: 3px;
@@ -116,22 +99,15 @@ i {
 }
 
 /* Media */
+
 @media (max-width: 767px) {
   .h1 {
-    font-size: 35px;
+    font-size: 55px;
   }
   .h2 {  
-    font-size: 20px;
+    font-size: 30px;
   }
   .h4 {
-    font-size: 15px;
-  }
-
-  .footer-icon {
-    font-size: 20px;
-    width: 25px;
-    height: 25px;
-    line-height: 20px;
-
+    font-size: 25px;
   }
 }
