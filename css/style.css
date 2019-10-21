@@ -1,4 +1,8 @@
 /* Global */
+.row {
+  margin: 0 auto;
+}
+
 .mon {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
@@ -38,7 +42,7 @@
 
 .h5 {
   font-size: 18px;
-  color: #464646;
+  color: color-four;
 }
 
 /*  Home */
@@ -59,7 +63,7 @@
   transform: translate(-50%, -50%);
 }
 
-.serif-white {
+.nav-title {
   color: #fff;
   font-weight: 400;
 }

@@ -1,10 +1,14 @@
 $font-one: 'Montserrat', sans-serif;
 $font-two: 'Roboto Slab', serif;
 $font-three: 'Source Serif Pro', serif;
+$color-one: #fff;
 $color-two: #fed136;
-
+$color-three: #000;
+$color-four: #464646;
 /* Global */
-
+.row{
+  margin: 0 auto;
+}
 .mon {
   font-family: $font-one;
   font-weight: 800;
@@ -27,7 +31,7 @@ $color-two: #fed136;
   font: $font-one;
   font-weight: 800;   
   font-size: 45px;
-  color: #000;
+  color: $color-three;
 }
 .h3 {
   font-size: 22px;
@@ -37,10 +41,9 @@ $color-two: #fed136;
 }
 .h5 {
   font-size: 18px;
-  color: #464646;
+  color: color-four;
 }
 /*  Home */
-
 .splash {
   height: 100vh;
   position: relative;
@@ -56,18 +59,16 @@ $color-two: #fed136;
   left: 50%;
   transform: translate(-50%,-50%);
 }
-.serif-white {
-  color: #fff;
+.nav-title {
+  color: $color-one;
   font-weight: 400; 
 }
 .btn-yellow {
   background-color: $color-two;
-  color: #fff;
+  color: $color-one;
   padding: 28px 55px;
 }
-
 /* Portfolio */
-
 i {
   color: $color-two;
   border-width: 3px;
@@ -77,29 +78,25 @@ i {
   border-radius: 50%; 
   padding: 6% 5% 6% 5%; 
 }
-
 /* Footer */
-
 .mon-footer {
   font-family: $font-one;
   font-weight: 700;
   text-align: left;  
   font-weight: bold;
-  color:#000;
+  color:$color-three;
 }
 .footer-icon {
   font-size: 30px;
-  background: #000;
+  background: $color-three;
   width: 60px;
   height: 60px;
   line-height: 60px;
   border-radius: 50%;
-  color: #fff;
+  color: $color-one;
   border-width: 0px;
 }
-
 /* Media */
-
 @media (max-width: 767px) {
   .h1 {
     font-size: 55px;
